@@ -27,7 +27,7 @@ def get_data(n_samples=1500,random_state=24601):
     return [noisy_circles,noisy_moons,blobs,aniso]
 
 def show_four_dataset(data_set_list):
-    [noisy_circles, noisy_moons, blobs, aniso]=data_set_list
+    [noisy_circles, noisy_moons, blobs, aniso]=data_set_listnp
     #Show the plot of data set
     color_list=['#377eb8', '#ff7f00', '#4daf4a','#f781bf', '#a65628', '#984ea3','#999999', '#e41a1c', '#dede00']
     plt.figure(figsize=(18,4))
